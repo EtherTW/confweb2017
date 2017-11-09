@@ -17,7 +17,7 @@ export default {
   meetupDescription: 'Taipei Ethereum Meetup 是專注在 Ethereum 技術理論、實作與應用的討論社群。每個月有固定實體聚會，由成員自發分享最前沿的研究成果。',
 
   newsTitle: '最新消息',
-  newsDescription: '請關注社團，隨時得知最新消息',
+  newsDescription: '請關注臉書專頁或加入社團，隨時得知最新消息',
   moreBtn: '更多',
 
   speakerTitle: '講者',
@@ -42,15 +42,15 @@ export default {
     },
     {
       name: '何斌',
-      title: 'ImToken CEO',
+      title: 'imToken CEO',
       image: 'https://img.mp.itc.cn/upload/20170503/2b64b32c730f49e9a2053fd1fa8cfb72_th.jpeg',
-      url: 'https://medium.com/taipei-ethereum-meetup/擁有網路第四大礦池-ethfans-中國以太坊社群這樣經營生態系-f659573c555f'
+      url: 'https://token.im'
     },
     {
       name: 'Lane Rettig',
       title: 'Founder of CryptoNYC',
       image: 'https://media.licdn.com/media/p/2/005/05d/08a/2722897.jpg',
-      url: 'https://www.linkedin.com/in/lanerettig/'
+      url: 'https://twitter.com/lrettig'
     },
     {
       name: 'Raiden Network',
@@ -101,7 +101,7 @@ export default {
     {
       start: '12:00',
       end: '13:30',
-      speaker: '午餐',
+      speaker: '午餐 (自理)',
       title: null
     },
     {
