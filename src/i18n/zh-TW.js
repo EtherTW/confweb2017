@@ -53,8 +53,8 @@ export default {
       url: 'https://twitter.com/lrettig'
     },
     {
-      name: 'Raiden Network',
-      title: 'Fast, cheap, scalable token transfers for Ethereum',
+      name: 'Philipp',
+      title: 'Raiden Network',
       image: 'https://cdn-images-1.medium.com/max/1200/1*0TL5ON_7R1LOnmCWHCxdoA.png',
       url: 'https://raiden.network/'
     }
@@ -96,7 +96,7 @@ export default {
       start: '11:30',
       end: '12:00',
       speaker: '何斌',
-      title: 'ImToken 2.0'
+      title: 'imToken 2.0'
     },
     {
       start: '12:00',
@@ -107,8 +107,8 @@ export default {
     {
       start: '13:30',
       end: '14:00',
-      speaker: 'Raiden Network',
-      title: 'Trustlines Network'
+      speaker: 'Philipp',
+      title: 'Raiden Network'
     },
     {
       start: '14:00',
