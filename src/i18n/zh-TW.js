@@ -5,7 +5,7 @@ export default {
 
   navLink1: '講者資訊',
   navLink2: '議程資訊',
-  navLink3: '交通資訊',
+  navLink3: '地點資訊',
 
   zhMobileLang: '繁體中文',
   enMobileLang: 'English',
@@ -154,7 +154,7 @@ export default {
     }
   ],
 
-  transportTitle: '交通資訊',
+  transportTitle: '地點資訊',
 
   sponsorTitle: '贊助夥伴',
   platinumSponsorTitle: 'Platinum Sponsors',
