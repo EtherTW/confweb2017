@@ -4,8 +4,8 @@ export default {
   bannerBtn: 'Register Now',
 
   navLink1: 'Speakers',
-  navLink2: 'Program',
-  navLink3: 'Travel',
+  navLink2: 'Agenda',
+  navLink3: 'Venue',
 
   zhMobileLang: '繁體中文',
   enMobileLang: 'English',
@@ -14,10 +14,10 @@ export default {
   enWording: 'English',
 
   meetupTitle: 'Intro',
-  meetupDescription: 'Taipei Ethereum Meetup is an active community focusing on technical issues of Ethereum and other blockchain applications. Every month we have a meetup where volunteer speakers can share.',
+  meetupDescription: 'Taipei Ethereum Meetup is an active community focusing on technical issues of Ethereum and other blockchain applications. Every month we have at least a meetup where voluntary speakers can share their research findings.',
 
   newsTitle: 'News',
-  newsDescription: 'Join our Facebook group to get the latest news',
+  newsDescription: 'Follow our Facebook fan page or join our Facebook group to get the latest news',
   moreBtn: 'More',
 
   speakerTitle: 'Speakers',
@@ -42,7 +42,7 @@ export default {
     },
     {
       name: 'Ben Ho',
-      title: 'ImToken CEO',
+      title: 'imToken CEO',
       image: 'http://img.mp.itc.cn/upload/20170503/2b64b32c730f49e9a2053fd1fa8cfb72_th.jpeg',
       url: 'https://token.im'
     },
@@ -60,7 +60,7 @@ export default {
     }
   ],
 
-  sessionTitle: 'Program',
+  sessionTitle: 'Agenda',
   sessions: [
     {
       start: '09:00',
@@ -89,26 +89,26 @@ export default {
     {
       start: '11:10',
       end: '11:30',
-      speaker: 'Break',
+      speaker: 'Coffee & Networking Break',
       title: null
     },
     {
       start: '11:30',
       end: '12:00',
       speaker: 'Ben Ho',
-      title: 'ImToken 2.0'
+      title: 'imToken 2.0'
     },
     {
       start: '12:00',
       end: '13:30',
-      speaker: 'Lunch',
-      title: null
+      speaker: 'Lunch Break',
+      title: 'NO lunch provided'
     },
     {
       start: '13:30',
       end: '14:00',
-      speaker: 'Raiden Network',
-      title: 'Trustlines Network'
+      speaker: 'Philipp',
+      title: 'Raiden Network'
     },
     {
       start: '14:00',
@@ -125,7 +125,7 @@ export default {
     {
       start: '15:00',
       end: '15:30',
-      speaker: 'Break',
+      speaker: 'Coffee & Networking Break',
       title: null
     },
     {
@@ -154,7 +154,7 @@ export default {
     }
   ],
 
-  transportTitle: 'Travel Info',
+  transportTitle: 'Venue Location',
 
   sponsorTitle: 'Sponsors',
   platinumSponsorTitle: 'Platinum Sponsor',
