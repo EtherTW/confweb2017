@@ -51,7 +51,7 @@ export default {
       url: 'https://karl.tech'
     },
     {
-      name: 'Ben Ho',
+      name: 'Ben He',
       title: 'imToken CEO',
       image: require('../assets/speaker4.jpg'),
       url: 'https://token.im'
@@ -111,7 +111,7 @@ export default {
     {
       start: '11:30',
       end: '12:00',
-      speaker: 'Ben Ho',
+      speaker: 'Ben He',
       title: 'imToken 2.0'
     },
     {
