@@ -36,8 +36,8 @@
     <Banner/>
     <nav class="nav-middle bg-green clearfix">
       <div class="float-left">
-         <a class="navbar-brand" href="#">
-          <img src="./assets/meetup_logo.jpeg" width="30" height="30" class="d-inline-block align-top logo" alt="">
+         <a class="navbar-brand logo" href="#">
+          <img src="./assets/meetup_logo.jpeg" width="30" height="30" class="d-inline-block align-top" alt="">
         </a>
       </div>
       <div class="float-right nav-menu">
@@ -164,6 +164,7 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
 }
 
 .logo {
+  display: inline-block;
   margin-left: 40px;
 }
 
@@ -303,6 +304,10 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
 }
 
 @media only screen and (max-width: 767px) {
+  .logo {
+    display: none;
+  }
+
   .paragraph {
     width: 500px;
   }

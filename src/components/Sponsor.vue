@@ -76,7 +76,7 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
     border-radius: 10px;
 
     img {
-        width: 100%;
+      width: 100%;
     }
   }
 }
@@ -90,12 +90,12 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
     &__row {
       width: 565px;
       margin: 0 auto;
-      margin-bottom: 40px;
+      margin-bottom: 0px;
     }
     &__logo {
       display: inline-block;
-      margin: 30px 0px;
-      width: 185px;
+      margin: 10px 5px;
+      width: 175px;
       height: 135px;
       /* border: 1px solid #E1DFE2; */
       border-radius: 10px;
@@ -121,8 +121,7 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
     &__logo {
       display: block;
       margin: 0 auto;
-      margin-top: 30px;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
       width: 266px;
       height: auto;
       /* border: 1px solid #E1DFE2; */

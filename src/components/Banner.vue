@@ -77,7 +77,7 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
     left: 50%;
     margin: 0;
     position: absolute;
-    top: 515px;
+    top: 480px;
     transform: translate(-50%, -50%);
 
     a {
@@ -112,7 +112,7 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
 .slide {
   background: {
     position: center;
-    size: 80%;
+    size: 75%;
     repeat: no-repeat;
   }
   height: 550px;
@@ -122,6 +122,12 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
 }
 
 @media only screen and (max-width: 767px) {
+  .slide {
+    background: {
+      size: 90%;
+    }
+  }
+
   .banner__title {
     width: 486px;
     top: 158px;
@@ -133,11 +139,17 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
   }
 
   .banner__participate {
-    top: 444px;
+    top: 440px;
   }
 }
 
 @media only screen and (max-width: 575px) {
+  .slide {
+    background: {
+      size: 95%;
+    }
+  }
+
   .banner__title {
     top: 230px;
     width: 274px;
@@ -151,7 +163,7 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
   }
   
   .banner__participate {
-    top: 380px;
+    top: 450px;
   }
 }
 </style>
