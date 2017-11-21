@@ -1,7 +1,8 @@
 export default {
   bannerTitle: 'BeyondBlock Taipei 2017',
   bannerDate: '11月25日',
-  bannerBtn: '由此購票',
+  bannerBtnLeft: '直播連結(上)',
+  bannerBtnRight: '直播連結(下)',
 
   navLink1: '講者資訊',
   navLink2: '議程資訊',

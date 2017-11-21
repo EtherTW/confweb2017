@@ -11,8 +11,11 @@
     <h1 class="banner__title">{{$t('bannerTitle')}}</h1>
     <h3 class="banner__date">{{$t('bannerDate')}}</h3>
     -->
-    <div class="banner__participate">
-      <a href="https://ethtaipei.kktix.cc/events/bbt2017" class="banner__btn" target="_blank"><span>{{$t('bannerBtn')}}</span></a>
+    <div class="banner__participate banner__left_btn">
+      <a href="https://www.youtube.com/watch?v=md9iNDdAmVo&feature=youtu.be" class="banner__btn" target="_blank"><span>{{$t('bannerBtnLeft')}}</span></a>
+    </div>
+    <div class="banner__participate banner__right_btn">
+      <a href="https://www.youtube.com/watch?v=9RtSod8EXn4&feature=youtu.be" class="banner__btn" target="_blank"><span>{{$t('bannerBtnRight')}}</span></a>
     </div>
   </section>
 </template>
@@ -73,10 +76,10 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
   &__participate {
     cursor: pointer;
     height: 50px;
-    width: 166px;
-    left: 50%;
+    width: 200px;
+    /* left: 50%; */
     margin: 0;
-    position: absolute;
+    /* position: absolute; */
     top: 480px;
     transform: translate(-50%, -50%);
 
@@ -107,6 +110,17 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
       letter-spacing: 2.22px;
     }
   }
+
+  &__left_btn {
+    left: 40%;
+    position: absolute;
+  }
+
+  &__right_btn {
+    left: 60%;
+    position: absolute;
+  }
+
 }
 
 .slide {
