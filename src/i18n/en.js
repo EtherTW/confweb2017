@@ -197,33 +197,99 @@ export default {
   staffTitle: 'Staff',
   staff: [
     {
-      name: 'juinc',
-      duty: '總召',
+      name: 'Juinc',
+      duty: 'Organizer',
       img: require('../assets/staff_juinc.jpg'),
       url: null
     },
     {
-      name: 'yurenju',
-      duty: '行銷',
+      name: 'Changwu',
+      duty: 'Organizer',
+      img: require('../assets/staff_changwu.jpg'),
+      url: null
+    },
+    {
+      name: 'Robin',
+      duty: 'Session',
+      img: require('../assets/staff_robin.jpg'),
+      url: null
+    },
+    {
+      name: 'Hwwang',
+      duty: 'Session',
+      img: require('../assets/staff_hwwang.jpg'),
+      url: null
+    },
+    {
+      name: 'Mhchia',
+      duty: 'Session',
+      img: require('../assets/staff_mhchia.jpg'),
+      url: null
+    },
+    {
+      name: 'Yurenju',
+      duty: 'Marketing',
       img: require('../assets/staff_yurenju.jpg'),
       url: null
     },
     {
-      name: '呂峻豪',
-      duty: '網站',
-      img: require('../assets/staff_ben.jpg'),
-      url: null
-    },
-    {
-      name: 'paul',
-      duty: '場務',
+      name: 'Paul',
+      duty: 'Sponsorship',
       img: require('../assets/staff_paul.jpg'),
       url: null
     },
     {
+      name: 'Brian',
+      duty: 'Sponsorship',
+      img: require('../assets/staff_brian.jpg'),
+      url: null
+    },
+    {
+      name: 'Will',
+      duty: 'Media',
+      img: require('../assets/staff_will.jpg'),
+      url: null
+    },
+    {
+      name: 'Liangcc',
+      duty: 'Record',
+      img: require('../assets/staff_liangcc.jpg'),
+      url: null
+    },
+    {
+      name: 'KK',
+      duty: 'Design',
+      img: require('../assets/staff_kk.jpg'),
+      url: null
+    },
+    {
+      name: 'Miya',
+      duty: 'Design',
+      img: require('../assets/staff_miyachen.jpg'),
+      url: null
+    },
+    {
+      name: 'Ben',
+      duty: 'Website',
+      img: require('../assets/staff_ben.jpg'),
+      url: null
+    },
+    {
+      name: 'Charlie',
+      duty: 'Broadcast',
+      img: require('../assets/staff_charlie.jpg'),
+      url: null
+    },
+    {
       name: 'Ken',
-      duty: '攝影',
+      duty: 'Logistic',
       img: require('../assets/staff_ken.jpg'),
+      url: null
+    },
+    {
+      name: 'Jerry',
+      duty: 'Logistic',
+      img: require('../assets/staff_jerry.jpg'),
       url: null
     }
   ]

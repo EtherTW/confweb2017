@@ -29,7 +29,7 @@ export default {
 .staff {
   &__box {
     margin: 0 auto;
-    width: 560px;
+    width: 740px;
   }
   &__img {
     display: inline-block;
@@ -62,6 +62,7 @@ export default {
       text-align: center;
       line-height: 129px;
       transition: 0.5s;
+      font-size: 8px;
     }
 
     span:hover {
