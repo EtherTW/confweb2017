@@ -62,7 +62,7 @@ export default {
       text-align: center;
       line-height: 129px;
       transition: 0.5s;
-      font-size: 8px;
+      font-size: 1.0rem;
     }
 
     span:hover {

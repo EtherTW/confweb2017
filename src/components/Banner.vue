@@ -110,6 +110,8 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
 }
 
 .slide {
+  margin: 0 auto;
+  max-width: 1100px;
   background: {
     position: center;
     size: 75%;
