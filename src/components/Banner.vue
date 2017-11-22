@@ -76,7 +76,7 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
   &__participate {
     cursor: pointer;
     height: 50px;
-    width: 200px;
+    width: 300px;
     /* left: 50%; */
     margin: 0;
     /* position: absolute; */
@@ -112,12 +112,12 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
   }
 
   &__left_btn {
-    left: 40%;
+    left: 35%;
     position: absolute;
   }
 
   &__right_btn {
-    left: 60%;
+    left: 65%;
     position: absolute;
   }
 
