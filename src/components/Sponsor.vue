@@ -39,6 +39,13 @@
           </a>
         </div>
       </div>
+      <div class="sponsor__row">
+        <div class="sponsor__logo">
+          <a href="https://lo3energy.com/" target="_blank">
+            <img src="../assets/sponsor_lo3.jpg">
+          </a>
+        </div>
+      </div>
     </div>
   </section>
 </template>

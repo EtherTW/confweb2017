@@ -228,6 +228,12 @@ export default {
       url: null
     },
     {
+      name: 'Yao',
+      duty: '議程組',
+      img: require('../assets/staff_yao.jpg'),
+      url: null
+    },
+    {
       name: 'Yurenju',
       duty: '行銷組',
       img: require('../assets/staff_yurenju.jpg'),

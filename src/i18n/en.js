@@ -228,6 +228,12 @@ export default {
       url: null
     },
     {
+      name: 'Yao',
+      duty: 'Session',
+      img: require('../assets/staff_yao.jpg'),
+      url: null
+    },
+    {
       name: 'Yurenju',
       duty: 'Marketing',
       img: require('../assets/staff_yurenju.jpg'),
