@@ -1,8 +1,8 @@
 export default {
   bannerTitle: 'BeyondBlock Taipei 2017',
   bannerDate: 'Nov. 25',
-  bannerBtnLeft: 'Live Streaming (Morning)',
-  bannerBtnRight: 'Live Streaming (Afternoon)',
+  bannerBtnLeft: 'Live (Morning)',
+  bannerBtnRight: 'Live (Afternoon)',
 
   navLink1: 'Speakers',
   navLink2: 'Agenda',

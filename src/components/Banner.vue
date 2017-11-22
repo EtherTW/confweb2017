@@ -7,15 +7,14 @@
       :autoplay="true" :pauseOnHover="false">
       <div class="slide slide--1"></div>
     </agile>
-    <!--
-    <h1 class="banner__title">{{$t('bannerTitle')}}</h1>
-    <h3 class="banner__date">{{$t('bannerDate')}}</h3>
-    -->
-    <div class="banner__participate banner__left_btn">
-      <a href="https://www.youtube.com/watch?v=md9iNDdAmVo&feature=youtu.be" class="banner__btn" target="_blank"><span>{{$t('bannerBtnLeft')}}</span></a>
-    </div>
-    <div class="banner__participate banner__right_btn">
-      <a href="https://www.youtube.com/watch?v=9RtSod8EXn4&feature=youtu.be" class="banner__btn" target="_blank"><span>{{$t('bannerBtnRight')}}</span></a>
+
+    <div class="banner__participate">
+      <div class="banner__streaming">
+        <a href="https://www.youtube.com/watch?v=md9iNDdAmVo&feature=youtu.be" class="banner__btn" target="_blank"><span>{{$t('bannerBtnLeft')}}</span></a>
+      </div>
+      <div class="banner__streaming">
+        <a href="https://www.youtube.com/watch?v=9RtSod8EXn4&feature=youtu.be" class="banner__btn" target="_blank"><span>{{$t('bannerBtnRight')}}</span></a>
+      </div>
     </div>
   </section>
 </template>
@@ -75,13 +74,12 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
 
   &__participate {
     cursor: pointer;
-    height: 50px;
-    width: 300px;
-    /* left: 50%; */
-    margin: 0;
-    /* position: absolute; */
+    width: 450px;
+    position: absolute;
     top: 480px;
+    left: 50%;
     transform: translate(-50%, -50%);
+    display: table;
 
     a {
       display: block;
@@ -110,17 +108,13 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
       letter-spacing: 2.22px;
     }
   }
-
-  &__left_btn {
-    left: 35%;
-    position: absolute;
+  &__streaming {
+    margin: 0 auto;
+    display: inline-block;
+    width: 180px;
+    margin: 0px 15px;
+    padding: 0px 3px;
   }
-
-  &__right_btn {
-    left: 65%;
-    position: absolute;
-  }
-
 }
 
 .slide {
@@ -155,7 +149,13 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
   }
 
   .banner__participate {
-    top: 440px;
+    top: 480px;
+  }
+
+  .banner__streaming {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
   }
 }
 
@@ -180,6 +180,12 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
   
   .banner__participate {
     top: 450px;
+  }
+
+  .banner__streaming {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
   }
 }
 </style>
