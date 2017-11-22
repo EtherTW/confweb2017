@@ -114,6 +114,10 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
     width: 180px;
     margin: 0px 15px;
     padding: 0px 3px;
+
+    a {
+      text-decoration: none;
+    }
   }
 }
 
