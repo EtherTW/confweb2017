@@ -95,7 +95,7 @@ export default {
       start: '09:40',
       end: '10:10',
       speaker: 'Lane Rettig',
-      title: 'Blockchain in NYC'
+      title: 'DApp Design for Ethereum'
     },
     {
       start: '10:10',
