@@ -17,6 +17,7 @@ export default {
 
   confTitle: 'Intro',
   confDescription: 'BeyondBlock Taipei is an 1-day conference focusing on blockchain technology.',
+  confHashtag: 'Hashtag us with: ',
 
   meetupTitle: 'About Us',
   meetupDescription: 'Taipei Ethereum Meetup is an active community focusing on technical issues of Ethereum and other blockchain applications. Every month we have at least a meetup where voluntary speakers can share their research findings.',
