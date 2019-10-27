@@ -17,6 +17,7 @@ export default {
 
   confTitle: '主題',
   confDescription: 'BeyondBlock Taipei 將會是一個聚焦於區塊鏈的技術型單日研討會，夢幻陣容的講者如 Vitalik, Karl Floersch, Raiden Network 等帶領以太坊社群的關鍵人物都將來台分享最前沿的研究成果。',
+  confHashtag: '使用 Hashtag 提到我們：',
 
   meetupTitle: '關於我們',
   meetupDescription: 'Taipei Ethereum Meetup 是專注在 Ethereum 技術理論、實作與應用的討論社群。每個月有固定實體聚會，由成員自發分享最前沿的研究成果。',

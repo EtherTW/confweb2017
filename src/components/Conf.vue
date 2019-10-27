@@ -7,6 +7,7 @@
 
     <div class="paragraph">
       <p>{{$t('confDescription')}}</p>
+      <p>{{$t('confHashtag')}}<b>#BeyondBlockTaipei</b></p>
     </div>
   </section>
 </template>
